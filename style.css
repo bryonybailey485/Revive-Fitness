@@ -11,11 +11,8 @@ h1, h2, h3{
     font-family: "Lato Static", sans-serif;
 }
 header{
-    background-color: #950101;
-    box-shadow: 0 0 8px 4px #000000;
     color: #ffffff;
-    height: 6vh;
-    padding-top: 7px;
+
 }
 header a{
     text-decoration: none;
@@ -28,23 +25,36 @@ header a{
     list-style-type: none;
     display: flex;
     align-items: baseline;
+    background-color: #950101;
+    height: 6vh;
+    padding-top: 7px;
 }
 menu > li {
-    margin-bottom: 1em;
+    margin-top: 1em;
 }
 main{
     font-family: "Lato Static", sans-serif;
-
+    padding: 0 1 auto;
+    height: 100vh;
 }
+
+/* IDs*/
 #gym-title{
     text-align: center;
     margin-left:30%;
     margin-right: 30%;
     padding-top: 2%;
     font-size: 300%;
-
 }
+#slogan{
+    text-align: center;
+    font-size: 20px;
+  }
+  
 
-footer{
-
-}
+footer {
+    background-color: #950101;
+     height: 4vh;
+     box-shadow: 0 -5px 7px #000000;
+  }
+  
