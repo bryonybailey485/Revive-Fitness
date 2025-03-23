@@ -15,22 +15,33 @@ h1, h2, h3{
 }
 header{
     background-color: #950101;
-    height: 3vh;
-
+    height: 5vh;
+    width:100%;
+    padding-top: 1vh;
+    position: fixed;
+    box-shadow: 0 0 8px 4px #000;
 }
 header a{
     text-decoration: none;
     color:inherit;
-    font-size:100%;
+    font-size:1.3rem;
+    justify-content:space-between;
+    padding: 14px 16px;
+    margin-left: 13%;
+
 }
 .topnav{
         font-size: 17px;
         letter-spacing:2px;
 }
+.active{
+    text-decoration: underline;
+}
 main{
     font-family: "Lato Static", sans-serif;
     padding: 0 1 auto;
     height: 100vh;
+    padding-top: 3vh;
 }
 
 /* IDs*/
