@@ -7,7 +7,7 @@ body{
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    background-image: url(gym\ wallpaper.jpg);
+    background-image: url(/assets/gym\ wallpaper.jpg);
     background-size: 110%;
 }
 h1, h2, h3{
