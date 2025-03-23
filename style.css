@@ -8,7 +8,7 @@ body{
     display:flex;
     flex-direction: column;
     background-image: url(gym\ wallpaper.jpg);
-    background-size: 100%;
+    background-size: 110%;
 }
 h1, h2, h3{
     text-transform: uppercase;
@@ -20,7 +20,6 @@ header{
     width:100%;
     padding-top: 1vh;
     position: fixed;
-    box-shadow: 0 0 8px 4px #000;
 }
 header a{
     text-decoration: none;
@@ -60,8 +59,9 @@ p{
     margin-left:30%;
     margin-right: 30%;
     padding-top: 2%;
-    font-size: 300%;
+    font-size: 500%;
     font-family: "Lato Static", sans-serif;
+    color: azure;
 }
 #slogan{
     text-align: center;
@@ -72,6 +72,5 @@ p{
 footer {
     background-color: #950101;
      height: 4vh;
-     box-shadow: 0 -5px 7px #000000;
   }
   
