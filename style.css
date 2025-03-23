@@ -4,6 +4,9 @@
     box-sizing: border-box; 
 }
 body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
     background-color: #3a3a3a;
 }
 h1, h2, h3{
@@ -11,26 +14,18 @@ h1, h2, h3{
     font-family: "Lato Static", sans-serif;
 }
 header{
-    color: #ffffff;
+    background-color: #950101;
+    height: 3vh;
 
 }
 header a{
     text-decoration: none;
-    color: inherit;
+    color:inherit;
+    font-size:100%;
 }
-#menu{
-    letter-spacing: 4px;
-    justify-content:space-around;
-    font-size: 100%;
-    list-style-type: none;
-    display: flex;
-    align-items: baseline;
-    background-color: #950101;
-    height: 6vh;
-    padding-top: 7px;
-}
-menu > li {
-    margin-top: 1em;
+.topnav{
+        font-size: 17px;
+        letter-spacing:2px;
 }
 main{
     font-family: "Lato Static", sans-serif;
