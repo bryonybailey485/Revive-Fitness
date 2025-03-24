@@ -47,7 +47,6 @@ main{
 }
 img{
     height:60%;
-
 }
 p{
     font-family: "News Cycle," sans-serif;
@@ -55,7 +54,6 @@ p{
 button{
     font-size:140%;
 }
-
 /* IDs*/
 #gym-title{
     text-align: center;
@@ -63,7 +61,7 @@ button{
     margin-right: 30%;
     padding-top: 2%;
     font-size: 500%;
-    font-family: "Lato Static", sans-serif;
+    font-family: "Lato", sans-serif;
     color: rgb(255, 255, 255);
 }
 #slogan{
@@ -76,7 +74,7 @@ button{
     color: white;
     display:inline-block;
     width: 350px;
-    font-family: "News-Cycle", sans-serif;
+    font-family: "News Cycle", sans-serif;
     margin-left: 39%;
 }
 #button-start{
