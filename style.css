@@ -85,7 +85,7 @@ footer {
      height: 2vh;
   }
   
-  @media(min-width:344px){
+  @media(max-width:500px){
     *{
         padding: 0;
         margin:0;
@@ -99,24 +99,37 @@ footer {
         padding:2px 2px;
         margin-left: 1%;
     }
+    body{
+        padding: 0 1 auto;
+        height:100%;
+        width: 100%;
+        
+    }
     main{
-        background-color: rgb(29, 28, 28);
+        background-image: url(/assets/gym\ wallpaper.jpg);
+        width:fit-content;
     }
     /* IDs */
     #gym-title{
         text-align: center;
         font-size: 500%;
         margin-left:1vw;
+        color: black;
     }
     #slogan{
         font-size: 160%;
         margin-left: 1vw;
         text-align: center;
+        color: black;
     }
     #text-one{
         margin-left:3vw;
         font-size: 130%;
         text-align: center;
+        color: black;
+    }
+    footer{
+
     }
 
   }
