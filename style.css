@@ -58,14 +58,13 @@ button{
 #gym-title{
     text-align: center;
     margin-left:30%;
-    margin-right: 30%;
     padding-top: 2%;
     font-size: 500%;
     font-family: "Lato", sans-serif;
     color: rgb(255, 255, 255);
 }
 #slogan{
-    text-align: center;
+    margin-left:53%;
     font-size: 200%;
     color: rgb(255, 255, 255);
 }
@@ -73,7 +72,6 @@ button{
     font-size: 120%;
     color: white;
     display:inline-block;
-    width: 350px;
     font-family: "News Cycle", sans-serif;
     margin-left: 39%;
 }
@@ -84,6 +82,41 @@ button{
 
 footer {
     background-color: #950101;
-     height: 4vh;
+     height: 2vh;
   }
   
+  @media(min-width:344px){
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+    }
+    header a {
+        justify-content: space-between;
+        padding:2px 2px;
+        margin-left: 1%;
+    }
+    main{
+        background-color: rgb(29, 28, 28);
+    }
+    /* IDs */
+    #gym-title{
+        text-align: center;
+        font-size: 500%;
+        margin-left:1vw;
+    }
+    #slogan{
+        font-size: 160%;
+        margin-left: 1vw;
+        text-align: center;
+    }
+    #text-one{
+        margin-left:3vw;
+        font-size: 130%;
+        text-align: center;
+    }
+
+  }
