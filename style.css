@@ -1,88 +1,100 @@
-*{
+* {
     padding: 0;
-    margin:0;
-    box-sizing: border-box; 
+    margin: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     background-image: url(/assets/gym\ wallpaper.jpg);
     background-size: 110%;
     background-attachment: fixed;
 }
-h1, h2, h3{
+
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     font-family: "Lato Static", sans-serif;
 }
-header{
+
+header {
     background-color: #950101;
     height: 5vh;
-    width:100%;
+    width: 100%;
     padding-top: 1vh;
     position: fixed;
 }
-header a{
+
+header a {
     text-decoration: none;
-    color:inherit;
-    font-size:1.3rem;
-    justify-content:space-between;
+    color: inherit;
+    font-size: 1.3rem;
+    justify-content: space-between;
     padding: 14px 16px;
     margin-left: 13%;
 
 }
-.topnav{
-        font-size: 17px;
-        letter-spacing:2px;
+
+.topnav {
+    font-size: 17px;
+    letter-spacing: 2px;
 }
 
-main{
+main {
     padding: 0 1 auto;
     height: 100vh;
     padding-top: 3vh;
 }
 
-img{
-    height:60%;
+img {
+    height: 60%;
 
 }
-p{
+
+p {
     font-family: "News Cycle," sans-serif;
 }
-button{
-    font-size:140%;
+
+button {
+    font-size: 140%;
 }
 
 /* IDs*/
 
-#slogan{
-    margin-left:44%;
+#slogan {
+    margin-left: 44%;
     font-size: 200%;
     color: rgb(255, 255, 255);
 }
-#about-text{
+
+#about-text {
     font-size: 120%;
     text-align: center;
     color: white;
-    display:inline-block;
+    display: inline-block;
     font-family: "News Cycle", sans-serif;
     margin-left: 39%;
 }
-#button-start{
+
+#button-start {
     margin-left: 47%;
-}   
+}
 
 /* CLASSES */
 
-.main-title{
-    margin-left:35%;
+.main-title {
+    margin-left: 35%;
     padding-top: 2%;
     font-size: 500%;
     font-family: "Lato", sans-serif;
     color: rgb(255, 255, 255);
 }
-.page-title{
-    margin-left:55%;
+
+.page-title {
+    margin-left: 55%;
     text-decoration: underline;
     padding-top: 2%;
     margin-top: 2%;
@@ -91,67 +103,118 @@ button{
     color: rgb(255, 255, 255);
 }
 
-footer {
-    background-color: #950101;
-    text-align:center;
-    padding: 20px 0;
-    display:flex;
-    justify-content: space-evenly;
-} 
 
 /* ABOUT SECTION */
 
-footer ul{
-      list-style-type: none;
+/* GALLERY SECTION */
+#gallery-title{
+    margin-left: 54%;
+    text-decoration: underline;
+    padding-top: 2%;
+    margin-top: 2%;
+    font-size: 250%;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+}
+#image-block{
+    margin-left: 39%;
+    height: 500px;
+    align-items: stretch;
+    padding-top: 2%;
+    margin-top: 2%;
 
-  }
-  
-  @media(max-width:500px){
-    *{
+    
+}
+
+/* SIGN UP SECTION */
+#signup-title{
+    margin-left: 65%;
+    text-decoration: underline;
+    padding-top: 2%;
+    margin-top: 2%;
+    font-size: 250%;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+
+/* FOOTER SECTION */
+footer {
+    background-color: #950101;
+    text-align: center;
+    height: 35px;
+    display: flex;
+}
+
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+
+@media(max-width:500px) {
+    * {
         padding: 0;
-        margin:0;
+        margin: 0;
         box-sizing: border-box;
     }
-    header{
+
+    header {
         width: 100%;
-    }
-    header a {
-        justify-content: space-between;
-        padding:2px 2px;
-        margin-left: 18px;
-    }
-    body{
-        padding: 0 1 auto;
-        height:100%;
-        width: 100%;
-        margin-left:1px;
-        
     }
 
-    main{
-        background-image: url(/assets/gym\ wallpaper.jpg);
-        width:fit-content;
+    header a {
+        justify-content: space-between;
+        padding: 2px 2px;
+        margin-left: 18px;
     }
+
+    body {
+        padding: 0 1 auto;
+        height: 100%;
+        width: 100%;
+        margin-left: 1px;
+
+    }
+
+    main {
+        background-image: url(/assets/gym\ wallpaper.jpg);
+        width: fit-content;
+    }
+
     /* IDs */
-    #gym-title{
+    #gym-title {
         text-align: center;
         font-size: 500%;
-        margin-left:1vw;
+        margin-left: 1vw;
         color: rgb(255, 255, 255);
     }
-    #slogan{
+
+    #slogan {
         font-size: 160%;
         margin-left: 1vw;
         text-align: center;
         color: rgb(255, 255, 255);
 
     }
-    #text-one{
-        margin-left:2vw;
-        padding-right:1vw;
+
+    #text-one {
+        margin-left: 2vw;
+        padding-right: 1vw;
         font-size: 130%;
         text-align: center;
         color: rgb(255, 255, 255);
     }
 
-  }
+}
