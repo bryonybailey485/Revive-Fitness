@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     background-image: url(/assets/gym\ wallpaper.jpg);
     background-size: 110%;
-background-attachment: fixed;
+    background-attachment: fixed;
 }
 h1, h2, h3{
     text-transform: uppercase;
@@ -35,17 +35,13 @@ header a{
         font-size: 17px;
         letter-spacing:2px;
 }
-.active{
-    text-decoration: underline;
-}
+
 main{
     padding: 0 1 auto;
     height: 100vh;
     padding-top: 3vh;
 }
-#test{
-    padding-top: 5vh;
-}
+
 img{
     height:60%;
 
@@ -56,22 +52,17 @@ p{
 button{
     font-size:140%;
 }
+
 /* IDs*/
-#gym-title{
-    text-align: center;
-    margin-left:30%;
-    padding-top: 2%;
-    font-size: 500%;
-    font-family: "Lato", sans-serif;
-    color: rgb(255, 255, 255);
-}
+
 #slogan{
-    margin-left:53%;
+    margin-left:44%;
     font-size: 200%;
     color: rgb(255, 255, 255);
 }
-#text-one{
+#about-text{
     font-size: 120%;
+    text-align: center;
     color: white;
     display:inline-block;
     font-family: "News Cycle", sans-serif;
@@ -80,11 +71,39 @@ button{
 #button-start{
     margin-left: 47%;
 }   
-  
+
+/* CLASSES */
+
+.main-title{
+    margin-left:35%;
+    padding-top: 2%;
+    font-size: 500%;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+}
+.page-title{
+    margin-left:55%;
+    text-decoration: underline;
+    padding-top: 2%;
+    margin-top: 2%;
+    font-size: 250%;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+}
 
 footer {
     background-color: #950101;
-     height: 2vh;
+    text-align:center;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-evenly;
+} 
+
+/* ABOUT SECTION */
+
+footer ul{
+      list-style-type: none;
+
   }
   
   @media(max-width:500px){
