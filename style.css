@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     background-image: url(/assets/gym\ wallpaper.jpg);
     background-size: 110%;
+background-attachment: fixed;
 }
 h1, h2, h3{
     text-transform: uppercase;
@@ -47,6 +48,7 @@ main{
 }
 img{
     height:60%;
+
 }
 p{
     font-family: "News Cycle," sans-serif;
@@ -97,14 +99,16 @@ footer {
     header a {
         justify-content: space-between;
         padding:2px 2px;
-        margin-left: 1%;
+        margin-left: 18px;
     }
     body{
         padding: 0 1 auto;
         height:100%;
         width: 100%;
+        margin-left:1px;
         
     }
+
     main{
         background-image: url(/assets/gym\ wallpaper.jpg);
         width:fit-content;
@@ -114,22 +118,21 @@ footer {
         text-align: center;
         font-size: 500%;
         margin-left:1vw;
-        color: black;
+        color: rgb(255, 255, 255);
     }
     #slogan{
         font-size: 160%;
         margin-left: 1vw;
         text-align: center;
-        color: black;
+        color: rgb(255, 255, 255);
+
     }
     #text-one{
-        margin-left:3vw;
+        margin-left:2vw;
+        padding-right:1vw;
         font-size: 130%;
         text-align: center;
-        color: black;
-    }
-    footer{
-
+        color: rgb(255, 255, 255);
     }
 
   }
