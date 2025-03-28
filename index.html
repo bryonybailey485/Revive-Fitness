@@ -34,10 +34,10 @@
 
         <nav>
             <div class="topnav">
-                <a href="#home-section">Home</a>
+                <a href="#main-title">Home</a>
                 <a href="#about-section">About</a>
                 <a href="#gallery-section">Gallery</a>
-                <a href="">Sign up</a>
+                <a href="#signup-section">Sign up</a>
             </div>
         </nav>
     </header>
@@ -48,18 +48,18 @@
     <main>
         <!--HOME SECTION-->
         <div id="home-section">
-            <h1 class="main-title">Revive Fitness</h1>
+            <h1 id="main-title">Revive Fitness</h1>
             <p id="slogan">"Get your head in the game"</p>
 
         </div>
 
         <!-- ABOUT SECTION-->
-        <div>
-            <h1 class="page-title">About Revive Fitness</h1>
+        <div id="about-section">
+            <h1 id="about-title">About Revive Fitness</h1>
 
         </div>
         <br>
-        <div id="about-section">
+        <div>
             <p id="about-text">
                 Revive fitness is a well-known gym facility across the United Kingdom with over 20+ gym facilities.
                 <br>
@@ -88,7 +88,17 @@
             <div>
                 <h1 id="signup-title">Sign Up</h1>
             </div>
-
+            <div>
+                <legend>
+                    <form>
+                        <label for="fname" aria-placeholder="John">First Name:</label>
+                        <input type="text" id="fname" name="fname"> <br>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for>Email Address:</label>
+                    </form>
+                </legend>
+            </div>
         </div>
 
 
