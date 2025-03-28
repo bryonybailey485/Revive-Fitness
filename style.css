@@ -1,3 +1,8 @@
+/* 
+Lato font for titles 
+News Cycle for rest of text
+
+ */
 * {
     padding: 0;
     margin: 0;
@@ -10,8 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: black;
-    /* background-image: url(/assets/3d-grunge-concrete-interior-with-spotlights.jpg); */
-    background-attachment: fixed;
+    background-size: 100px;
 }
 
 h1,
@@ -36,12 +40,16 @@ header a {
     justify-content: space-between;
     padding: 14px 16px;
     margin-left: 13%;
+    font-family: "News Cycle", sans-serif;
+
+
 
 }
 
 .topnav {
     font-size: 17px;
     letter-spacing: 2px;
+
 }
 
 main {
@@ -75,7 +83,7 @@ button {
     color: white;
     display: inline-block;
     font-family: "News Cycle", sans-serif;
-    width:70%;
+    width: 70%;
 }
 
 
@@ -101,7 +109,7 @@ button {
 /* ABOUT SECTION */
 
 /* GALLERY SECTION */
-#gallery-title{
+#gallery-title {
     text-decoration: underline;
     padding-top: 2%;
     margin-top: 2%;
@@ -109,17 +117,17 @@ button {
     font-family: "Lato", sans-serif;
     color: rgb(255, 255, 255);
 }
-#image-block{
-    height: 800px;
+
+#image-block {
+    size: 10px;
     align-items: stretch;
-    padding-top: 2%;
     margin-top: 2%;
 
-    
 }
 
 /* SIGN UP SECTION */
-#signup-title{
+
+#signup-title {
     text-decoration: underline;
     padding-top: 2%;
     margin-top: 2%;
@@ -127,9 +135,11 @@ button {
     font-family: "Lato", sans-serif;
     color: rgb(255, 255, 255);
 }
-form{
-font-size: 135%;
-color: white;
+
+form {
+    font-size: 135%;
+    color: white;
+    font-family: "News Cycle", sans-serif;
 }
 
 
@@ -211,22 +221,25 @@ footer {
         color: rgb(255, 255, 255);
     }
 }
+
 @media(max-width: 850px) {
-    body{
-        background-size:250%;
+    body {
+        background-size: 250%;
         background-position: 20%;
 
 
     }
 }
-@media(min-width: 1100px){
-    body{
+
+@media(min-width: 1100px) {
+    body {
         background-size: 190%;
-        background-position:5%;
+        background-position: 5%;
     }
-    img{
+
+    img {
         height: 40%;
-        
+
     }
 
 }

@@ -67,7 +67,8 @@
                 to assist, you can get your dream body shape in no time. It is also suited for everyone, regardless of
                 fitness level or gym experience we work hard to cater to everyone.
                 <br>
-                We are here to help more people lead healthier, more fitter lives, one step at a time. Our gym memberships start from £10.99, making it easier and cheaper to work out.
+                We are here to help more people lead healthier, more fitter lives, one step at a time. Our gym
+                memberships start from £10.99, making it easier and cheaper to work out.
             </p>
         </div>
         <!-- GALLERY SECTION-->
@@ -77,11 +78,9 @@
             </div>
             <div id="image-block">
                 <img src="/assets/gym-image-1.jpg">
-                <img src="/assets/gym-image-2.jpeg">
+                <img src="/assets/gym-image-2.jpeg"><br>
                 <img src="/assets/gym-image-3.webp">
-
             </div>
-
         </div>
         <!-- SIGN UP SECTION-->
         <div id="signup-section">
@@ -89,15 +88,25 @@
                 <h1 id="signup-title">Sign Up</h1>
             </div>
             <div>
-                <legend>
-                    <form>
-                        <label for="fname" aria-placeholder="John">First Name:</label>
-                        <input type="text" id="fname" name="fname"> <br>
-                        <label for="lname">Last Name:</label>
-                        <input type="text" id="lname" name="lname"><br>
-                        <label for>Email Address:</label>
-                    </form>
-                </legend>
+                <form>
+                    <label for="fname" aria-placeholder="John">First Name:</label>
+                    <input type="text" id="fname" name="fname" required> <br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="interest">Area Of Interest:</label><br>
+                    <input type="radio" id="gym" value="gym" name="interest">
+                    <label for="gym">Gym</label>
+                    <input type="radio" id="classes" value="classes" name="interest">
+                    <label for="classes">Classes</label>
+                    <input type="radio" id="self-defense" value="self-defense" name="interest">
+                    <label for="self-defense">Self-Defense</label>
+                    <input type="radio" id="unsure" value="unsure" name="interest">
+                    <label for="unsure">Unsure</label>
+
+
+                </form>
             </div>
         </div>
 
