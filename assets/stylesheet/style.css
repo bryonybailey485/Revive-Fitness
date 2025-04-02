@@ -39,7 +39,7 @@ header a {
     font-size: 1.3rem;
     justify-content: space-between;
     padding: 14px 16px;
-    margin-left: 13%;
+    margin-left: 5%;
     font-family: "News Cycle", sans-serif;
 }
 
@@ -148,8 +148,6 @@ form {
     font-size: 135%;
     color: white;
     font-family: "News Cycle", sans-serif;
-    border-style:groove;
-    border-color: white;
 }
 
 
@@ -167,16 +165,16 @@ footer p{
 
 #social-media {
     padding: 20px 0;
-    display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    display:flex;
+    text-align: center;
 }
 
 #social-media i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
+    color: #fffdfd;
+    font-size: 150%;
+} 
 
 
 
