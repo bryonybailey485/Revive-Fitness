@@ -95,8 +95,7 @@ button {
 
 
 /* CLASSES */
-
-#main-title {
+main-title{
     padding-top: 2%;
     font-size: 500%;
     font-family: "Lato", sans-serif;
@@ -131,6 +130,23 @@ button {
     margin-top: 2%;
 
 }
+/* SCHEDULE SECTION */
+#class-title {
+    text-decoration: underline;
+    padding-top: 2%;
+    margin-top: 2%;
+    font-size: 250%;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+}
+table, th, td{
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+#class-table{
+    padding-left: 34%;
+}
 
 /* SIGN UP SECTION */
 
@@ -148,6 +164,7 @@ form {
     font-size: 135%;
     color: white;
     font-family: "News Cycle", sans-serif;
+    text-align: center;
 }
 
 
