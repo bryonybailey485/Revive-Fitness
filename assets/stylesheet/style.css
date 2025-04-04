@@ -31,6 +31,7 @@ header {
     width: 100%;
     padding: 0.6rem 1rem;
     position: fixed;
+    z-index: 0;
 }
 
 header a {
@@ -46,7 +47,6 @@ header a {
 .topnav {
     font-size: 17px;
     letter-spacing: 2px;
-
 }
 
 main {
@@ -63,7 +63,8 @@ p {
     font-family: "News Cycle", sans-serif;
 }
 video{
-    width: 50%;
+    width: 40%;
+    z-index: 3;
 }
 
 button {
@@ -149,7 +150,7 @@ table, th, td{
     text-align: center;
 }
 #class-table{
-    padding-left: 27%;
+    padding-left: 20%;
 }
 
 
