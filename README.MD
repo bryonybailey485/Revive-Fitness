@@ -60,12 +60,13 @@ Within the commit message, I would note every change or deletion that I made to 
 
 ## <b><u> Code Validation </u></b>
 ### CSS Validation
-![CSS Validation](https:\\assets\images\CSSValidation.png)
+![CSS Validation](assets/images/CSSValidation.png)
 ### HTML Validation
 ![HTML Validation](https:\\assets\images\HTMLValidation.png)
 
 ## <b><u> Lighthouse Test </u></b>
 ### Mobile Lighthouse
+
 ![Mobile Lighthouse](https:\\assets\images\Lighthouse-Mobile.png)
 ### Desktop Lighthouse
 ![Desktop Lighthouse](ReviveFitness\assets\images\Lighthouse-Desktop.png)
