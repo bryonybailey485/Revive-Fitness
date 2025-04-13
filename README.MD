@@ -35,6 +35,7 @@ Within the commit message, I would note every change or deletion that I made to 
 
 ![Mobile Gallery](https:\\assets\images\Mobile-gallery.png)
 
+
 ![Mobile Schedule](https:\\assets\images\Mobile-schedule.png)
 
 ![Mobile Sign up and foooter](https:\\assets\images\Mobile-signup&footer.png)
@@ -67,7 +68,7 @@ Within the commit message, I would note every change or deletion that I made to 
 ### Mobile Lighthouse
 ![Mobile Lighthouse](https:\\assets\images\Lighthouse-Mobile.png)
 ### Desktop Lighthouse
-![Desktop Lighthouse](https:\\assets\images\Lighthouse-Desktop.png)
+![Desktop Lighthouse](https:\ReviveFitness\assets\images\Lighthouse-Desktop.png)
 
 ## Credits And References
 Throughout the project I used code snippets from Code Insitute's Love Running Project, W3schools.com and Code Insitute Mentor.
