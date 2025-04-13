@@ -55,7 +55,7 @@ Within the commit message, I would note every change or deletion that I made to 
 
 ![Desktop Schedule](https:\\assets\images\Desktop-schedule.png)
 
-![Desktop Footer](assets\images\Desktop-footer.png)
+![Desktop Footer](\assets\images\Desktop-footer.png)
 
 ## <b><u> Code Validation </u></b>
 ### CSS Validation
