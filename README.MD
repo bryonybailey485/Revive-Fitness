@@ -31,45 +31,45 @@ Within the commit message, I would note every change or deletion that I made to 
 
 ## <b><u>Mobile Version</u></b> 
 
-![Mobile Title](https:\\assets\images\Mobile-title.png)
+![Mobile Title](assets/images/Mobile-title.png)
 
-![Mobile Gallery](https:\\assets\images\Mobile-gallery.png)
+![Mobile Gallery](assets/images/Mobile-gallery.png)
 
 
-![Mobile Schedule](https:\\assets\images\Mobile-schedule.png)
+![Mobile Schedule](assets/images/Mobile-schedule.png)
 
-![Mobile Sign up and foooter](https:\\assets\images\Mobile-signup&footer.png)
+![Mobile Sign up and foooter](assets/images/Mobile-signup&footer.png)
 
 ## <b><u>Tablet Version</u></b> 
-![Tablet Title](https:\\assets\images\Tablet-title.png)
+![Tablet Title](assets/images/Tablet-title.png)
 
-![Tablet Gallery](https:\\assets\images\Tablet-gallery.png)
+![Tablet Gallery](assets/images/Tablet-gallery.png)
 
-![Tablet Schedule](https:\\assets\images\Tablet-schedule.png)
+![Tablet Schedule](assets/images/Tablet-schedule.png)
 
-![Tablet Footer](https:\\assets\images\Tablet-footer.png)
+![Tablet Footer](assets/images/Tablet-footer.png)
 
 ## <b><u>Desktop Version</u></b> 
-![Desktop Title](https:\\assets\images\Desktop-title.png)
+![Desktop Title](assets/images/Desktop-title.png)
 
-![Desktop Gallery](https:\\assets\images\Desktop-gallery.png)
+![Desktop Gallery](assets/images/Desktop-gallery.png)
 
-![Desktop Schedule](https:\\assets\images\Desktop-schedule.png)
+![Desktop Schedule](assets/images/Desktop-schedule.png)
 
-![Desktop Footer](\assets\images\Desktop-footer.png)
+![Desktop Footer](assets/images/Desktop-footer.png)
 
 ## <b><u> Code Validation </u></b>
 ### CSS Validation
 ![CSS Validation](assets/images/CSSValidation.png)
 ### HTML Validation
-![HTML Validation](https:\\assets\images\HTMLValidation.png)
+![HTML Validation](assets/images/HTMLValidation.png)
 
 ## <b><u> Lighthouse Test </u></b>
 ### Mobile Lighthouse
 
-![Mobile Lighthouse](https:\\assets\images\Lighthouse-Mobile.png)
+![Mobile Lighthouse](assets/images/Lighthouse-Mobile.png)
 ### Desktop Lighthouse
-![Desktop Lighthouse](ReviveFitness\assets\images\Lighthouse-Desktop.png)
+![Desktop Lighthouse](assets/images/Lighthouse-Desktop.png)
 
 ## Credits And References
 Throughout the project I used code snippets from Code Insitute's Love Running Project, W3schools.com and Code Insitute Mentor.
