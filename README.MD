@@ -9,7 +9,7 @@ Revive Fitness is a fast growing gym based in Manchester, England. Founded by th
 ### <u>Design </u>
 The website is designed as one full page that has been split into sections. The four sections within the page has an easy access, they can click on the section they would like to view and they would be taken to the section. The colours I used for the website are: 
 
-![Website Colours](https:\\assets\images\WebsiteColours.png)
+![Website Colours](assets/images/WebsiteColours.png)
 
 ### <u>Hosting </u>
 I hosted my project using Github which was linked to my Visual Studio Code.
